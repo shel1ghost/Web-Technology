@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE address [
+  <!ELEMENT address (name,company,phone)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT company (#PCDATA)>
+  <!ELEMENT phone (#PCDATA)>
+  <!ATTLIST phone type CDATA #IMPLIED>
+  <!ATTLIST company category (public | private) "public">
+]>
+<address>
+  <name>Fataha Byapari</name>
+  <company category="public">Fataha Pvt. Ltd.</company>
+  <phone type="home">977-987777777</phone>
+</address>

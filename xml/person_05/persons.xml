@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persons xmlns:i="https://www.w3.org/2001/XMLSchema-instance" 
+i:schemaLocation="http://localhost:8000/schema.xsd">
+<person firstname="James" lastname="Magar">
+    <email>mgrjames@gmail.com</email>
+</person>
+<person>
+    <email>astra@gmail.com</email>
+</person>
+</persons>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phoneNumbers xmlns:i="https://www.w3.org/2001/XMLSchema-instance" 
+i:schemaLocation="http://localhost:8000/schema.xsd">
+    <title>Phone Numbers</title>
+    <entries>
+        <entry>
+            <name>
+                <first>Babi</first>
+                <last>Thakur</last>
+            </name>
+            <phone>9808085221</phone>
+            <city>Sonama</city>
+        </entry>
+        <entry>
+            <name>
+                <first>Astra</first>
+                <last>Thakur</last>
+            </name>
+            <phone>9808341262</phone>
+            <city>Sundarpur</city>
+        </entry>
+    </entries>
+</phoneNumbers>

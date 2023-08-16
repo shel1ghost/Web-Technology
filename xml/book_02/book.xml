@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Books [
+<!ELEMENT Books (book+)>
+<!ELEMENT book (title, author+, isbn, publisher_name, edition, price)>
+<!ATTLIST book book_id CDATA #REQUIRED>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (firstname, middlename?, lastname)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT middlename (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ATTLIST author title CDATA #REQUIRED>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT publisher_name (#PCDATA)>
+<!ELEMENT edition (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ATTLIST price currency CDATA #REQUIRED>
+]>
+<Books>  
+	<book book_id='101'>
+	<title>Hacking: The art of exploitation</title>
+	<author title="API hacking">
+		<firstname>Roshan</firstname>
+		<lastname>Adhikari</lastname>
+	</author>
+	<author title="Network hacking">
+		<firstname>Babi</firstname>
+		<lastname>Thakur</lastname>
+	</author>
+	<isbn>123-456-789</isbn>
+	<publisher_name>Astra Publishers</publisher_name>
+	<edition>4th</edition>
+	<price currency="NPR">Rs. 1800</price>
+	</book>
+</Books>
