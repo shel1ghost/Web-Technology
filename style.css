@@ -1,0 +1,17 @@
+body{
+  background-color: black;
+}
+h1{
+  color: red;
+}
+h2{
+  color: cyan;
+  font-size: 20px;
+  text-align: center;
+}
+#abc{
+  text-align: left;
+}
+h3{
+  color: green;
+}

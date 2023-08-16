@@ -1,0 +1,47 @@
+Assignment -1 – Part 1
+1.  What is wireframe? Explain advantage of wireframe with example
+2.  Explain web development process with major steps.
+3.  Difference between webpage and website
+4.  Difference between Web Client and Web Server
+5.  Difference between website and web application
+6.  Difference between Static and Dynamic Website
+7.  Explain HTML with it’s major feature.
+8.  What is HTML tags? Explain basic tag structure.
+9.  What is HTML element? Explain basic structure of HTML element.
+10.  Explain HTML versions with it’s major features.
+11.  Write Basic HTML program structure.
+12.  What is HTML Attribute? Explain different type of HTML attribute with some example.
+13.  Explain different types of HTML element with example.
+14.  Difference between paired and empty tag.
+15.  What is HTML entities? List out commonly used HTML entity references.
+16.  What is CSS? Explain different types of CSS with suitable example
+17.  Explain advantage and disadvantage of using CSS.
+18.  Why CSS is important for website? Explain different version of CSS with its major features.
+19.  What is uses of CSS selector? Explain different CSS selector with example
+20.  What is anchor tag? Explain different html attribute associated with anchor tag.
+21.  What is CSS Box model? Explain different properties associated with box model
+22.  Explain img tag with it’s related attribute.
+23.  What is HTML list? Explain different types of HTML list with example
+24.  What is semantic tag in HTML? Why semantic tags are important for web development.
+Assignment 1 Part 2
+25.  Explain different types of link used into HTML ?
+26.  What is Image Map? Difference between client side and server side image map.
+27.  Explain different types of client side imagemap shape with proper example.
+28.  What is HTML table? Explain importance of html table with pros and cons.
+29.  List and explain html table tags and attributes with example.
+30.  Explain various html 5 table tags and attribute.
+31.  What is HTML frame? Why frame layout is important for web site.
+32.  Differentiate between frameset and frame tag.
+33.  How to define nested frame? Explain with rows and cols attribute.
+34.  Difference between frame and iframe.
+35.  What is HTML Form? Explain importance of form for web application.
+36.  Explain different form elements and attributes with example.
+37.  Explain html form elements and attributes related to html5.
+38.  How to group form elements in standard way for better user experience.
+39.  Explain html5 related form attributes for form validation.
+40.  Explain importance of hidden element for html form.
+41.  Explain different form related events with example.
+42.  How to handle file upload into html form, explain with related tags and attribute.
+43.  What is HTTP method? Difference between get and post method.
+44.  What is responsive website? Explain media query with example.
+45.  How to break default html layout element? Explain using float, position and display(inline, block, inline-block and flex) property.

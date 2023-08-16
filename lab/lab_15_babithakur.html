@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Div based design</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            header{
+                padding: 20px;
+                background-color: blue;
+                color: black;
+                text-align: center;
+            }
+            h3, footer{
+                background-color: gray;
+                color: black;
+                padding: 10px;
+            }
+            .main{
+                display: inline-flex;
+            }
+            .left{
+                background-color: maroon;
+                height: 500px;
+                width: 380px;
+            }
+            .center{
+                background-color: aqua;
+                height: 500px;
+                width: 600px;
+            }
+            .right{
+                background-color: purple;
+                height: 500px;
+                width: 380px;
+            }
+        </style>
+    </head>
+    <body>
+        <header><p>header</p></header>
+        <h3>menu</h3>
+        <div class="main">
+            <div class="left"><p>Left Side</p></div>
+            <div class="center"><p>Content</p></div>
+            <div class="right"><p>Left Side</p></div>
+        </div>
+        <footer><p>footer</p></footer>
+    </body>
+</html>

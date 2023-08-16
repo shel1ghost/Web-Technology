@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Registration Form</title>
+        <style>
+            h2{
+                color: red;
+                text-align: center;
+            }
+            .main{
+                width: 50%;
+                margin: auto;
+                border: 2px solid grey;
+            }
+            legend{
+                margin: auto;
+            }
+            .inner{
+                width: 94%;
+                margin-top: 8px;
+            }
+            .label{
+                font-size: 16px;
+                width: 60px;
+                text-align: right;
+                display: inline-block;
+            }
+            .input{
+                width: 84%;
+                font-size: 16px;
+            }
+            .register{
+                padding: 10px;
+                font-size: 18px;
+                color: white;
+                background-color: blue;
+                border: none;
+            }
+            .clear{
+                padding: 10px;
+                font-size: 18px;
+                color: white;
+                background-color: red;
+                border: none;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Registration Form</h2>
+        <fieldset class="main">
+            <legend>Personal Details</legend>
+
+            <fieldset class="inner">
+                <label class="label">Name</label>
+                <input type="text" class="input" placeholder="Enter Name">
+            </fieldset>
+
+            <fieldset class="inner">
+                <label class="label">Address</label>
+                <input type="text" class="input" placeholder="Enter Address">
+            </fieldset>
+
+            <fieldset class="inner">
+                <label class="label">Phone</label>
+                <input type="text" class="input" placeholder="Enter Phone Number">
+            </fieldset>
+
+            <fieldset class="inner">
+                <label class="label">Gender</label>
+                <input type="radio" value="Male">
+                <label for="Male">Male</label>
+                <input type="radio" value="Female">
+                <label for="Female">Female</label>
+            </fieldset>
+
+            <fieldset class="inner">
+                <label class="label">Country</label>
+                <select style="width: 85%">
+                    <option>Select Country</option>
+                    <option>Nepal</option>
+                    <option>India</option>
+                    <option>Bangladesh</option>
+                    <option>Srilanka</option>
+                </select>
+            </fieldset>
+
+            <fieldset class="inner">
+                <label class="label">Message</label>
+                <textarea class="input"></textarea>
+            </fieldset>
+
+            <fieldset class="inner">
+                <label class="label">Image</label>
+                <input type="file" class="input">
+            </fieldset>
+
+            <fieldset class="inner">
+                <input type="checkbox">
+                <span>I Accept Terms &amp; Condition</span>
+            </fieldset>
+
+            <fieldset class="inner">
+                <button class="register">Register</button>
+                <button class="clear">Clear</button>
+            </fieldset>
+
+        </fieldset>
+    </body>
+</html>
