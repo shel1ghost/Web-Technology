@@ -1,0 +1,16 @@
+<!ELEMENT companies (company+)>
+<!ELEMENT company (cname,staffs,address)>
+<!ELEMENT cname (#PCDATA)>
+<!ELEMENT staffs (staff+)>
+<!ELEMENT staff (name,email,post,salary,join_date)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT post (#PCDATA)>
+<!ELEMENT salary (#PCDATA)>
+<!ELEMENT join_date (#PCDATA)>
+<!ELEMENT address (city,state)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT state (#PCDATA)>
+<!ATTLIST company regno CDATA #REQUIRED>
+<!ATTLIST address postalcode CDATA #REQUIRED>
+<!ATTLIST join_date type (ad|bs) "ad">
