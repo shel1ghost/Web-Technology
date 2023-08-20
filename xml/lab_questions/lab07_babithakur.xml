@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movies xmlns:i="https://www.w3.org/2001/XMLSchema-instance" 
+i:schemaLocation="file:///home/astra/Desktop/study/web_xml/xml/lab_questions/lab07_babithakur.xsd">
+    <Movie movie_id="101">
+        <title>Satyaprem Ki Katha</title>
+        <year>2023</year>
+        <_director _director_name="Sameer Sanjay Vidwans">Sameer Sanjay Vidwans</_director>
+        <comment>A pure love story!</comment>
+        <newcomment lang="english">Featuring Kartik Aaryan &amp; Kiara Advani</newcomment>
+    </Movie>
+    <Movie movie_id="102">
+        <title>Aashiqui 2</title>
+        <year>2013</year>
+        <_director _director_name="Mohit Suri">Mohit Suri</_director>
+        <comment>Love makes life live!</comment>
+        <newcomment lang="english">Featuring Aditya Roy Kapoor &amp; Shraddha Kapoor</newcomment>
+    </Movie>
+</movies>

@@ -5,6 +5,6 @@ i:schemaLocation="http://localhost:8000/schema.xsd">
     <email>mgrjames@gmail.com</email>
 </person>
 <person>
-    <email>astra@gmail.com</email>
+    <email>astra@gmail.com</email> 
 </person>
 </persons>

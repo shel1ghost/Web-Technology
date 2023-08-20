@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<songs>
+    <song>
+        <name>Night Changes</name>
+        <singer>One Direction</singer>
+        <composer>One Direction</composer>
+        <length>4:00</length>
+    </song>
+    <song>
+        <name>Apna Bana Le</name>
+        <singer>Arijit Singh</singer>
+        <composer>Sachin-Jigar</composer>
+        <length>4:21</length>
+    </song>
+    <song>
+        <name>Humraah</name>
+        <singer>Sachet Tondon</singer>
+        <composer>The fusion project</composer>
+        <length>4:59</length>
+    </song>
+    <song>
+        <name>Malang (Title Track)</name>
+        <singer>Ved Sharma</singer>
+        <composer>Ved Sharma</composer>
+        <length>4:47</length>
+    </song>
+</songs>
