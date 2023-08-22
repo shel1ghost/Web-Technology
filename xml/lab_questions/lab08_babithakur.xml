@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///home/astra/Desktop/study/web_xml/xml/lab_questions/lab08_babithakur.xsl"?>
+<oceans>
+    <ocean>
+        <name>Artic</name>
+        <area>13000</area>
+        <depth>1200</depth>
+    </ocean>
+    <ocean>
+        <name>Atlantic</name>
+        <area>87000</area>
+        <depth>3900</depth>
+    </ocean>
+    <ocean>
+        <name>Pacific</name>
+        <area>180000</area>
+        <depth>4000</depth>
+    </ocean>
+    <ocean>
+        <name>Indian</name>
+        <area>75000</area>
+        <depth>3900</depth>
+    </ocean>
+    <ocean>
+        <name>Southern</name>
+        <area>20000</area>
+        <depth>4500</depth>
+    </ocean>
+</oceans>
