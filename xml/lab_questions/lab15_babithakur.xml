@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TU xmlns:i="https://www.w3.org/2001/XMLSchema-instance"
+i:schemaLocation="http://localhost:8000/file.xsd">
+<employee>
+    <post>Hiring Manager</post>
+    <salary>25000</salary>
+    <gender>Male</gender>
+    <username>harryx01</username>
+    <password>H@rry!800</password>
+</employee>
+<employee>
+    <post>Social Media Handler</post>
+    <salary>28000</salary>
+    <gender>Female</gender>
+    <username>jasminekc</username>
+    <password>Jasmine30@!</password>
+</employee>
+</TU>

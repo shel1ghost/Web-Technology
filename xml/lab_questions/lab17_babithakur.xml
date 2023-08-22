@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sales>
+    <salesman>
+        <name>
+            <first>Safal</first>
+            <middle>Dev</middle>
+            <last>Bal</last>
+        </name>
+        <phone type="personal">9860387621</phone>
+        <area>Kathmandu</area>
+        <records>
+            <record>
+                <product>
+                    <sku>abc123</sku>
+                    <product_name>Tresseme Shampoo</product_name>
+                </product>
+                <quantity>20</quantity>
+                <price>6400</price>
+                <date type="ad">2023-05-20</date>
+            </record>
+        </records>
+    </salesman>
+</sales>

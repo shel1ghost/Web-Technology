@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patients xmlns:i="https://www.w3.org/2001/XMLSchema-instance" 
+i:schemaLocation="http://localhost:8000/schema.xsd">
+    <patient>
+        <name>
+            <firstname>Rony</firstname>
+            <middlename></middlename>
+            <lastname>Banjara</lastname>
+        </name>
+        <patient_number>11024</patient_number>
+        <doctor_name>Dr. Avinash Chandra</doctor_name>
+        <disease>
+            <dname>Tuberculosis</dname>
+        </disease>
+        <disease>
+            <dname>Hepatitis - B</dname>
+        </disease>
+        <consulation_charge>500</consulation_charge>
+        <lab_test>
+            <test_name>Liver Test</test_name>
+        </lab_test>
+        <lab_test>
+            <test_name>Lungs Test</test_name>
+        </lab_test>
+    </patient>
+</patients>

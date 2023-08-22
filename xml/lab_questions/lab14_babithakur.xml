@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <book id="bk101">
+        <author>Preeti Thakur</author>
+        <title>Business Laws</title>
+        <genre>Business</genre>
+        <price>450</price>
+        <publish_date>2020-04-20</publish_date>
+        <description>An unique book filled with the rules and laws to be abided in a business.</description>
+    </book>
+    <book id="bk102">
+        <author>Anup Gautam</author>
+        <title>Money Making Techniques</title>
+        <genre>Skills</genre>
+        <price>1200</price>
+        <publish_date>2023-05-02</publish_date>
+        <description>Get rich knowledge in order to get rich!</description>
+    </book>
+    <book id="bk103">
+        <author>Roshan Adhikari</author>
+        <title>Nepalese in abroad - (Study &amp; Lifestyle)</title>
+        <genre>Social</genre>
+        <price>320</price>
+        <publish_date>2022-07-10</publish_date>
+        <description>Learn about life of Nepalese students in foreign countries.</description>
+    </book>
+    <book id="bk104">
+        <author>Arogya Hada</author>
+        <title>Education In Nepal</title>
+        <genre>educational</genre>
+        <price>520</price>
+        <publish_date>2021-09-12</publish_date>
+        <description>Know how education systems are operating in Nepal.</description>
+    </book>
+    <book id="bk105">
+        <author>Safal Dev Bal</author>
+        <title>Life Guides</title>
+        <genre>motivational</genre>
+        <price>800</price>
+        <publish_date>2022-12-30</publish_date>
+        <description>Learn about the states of life and some lessons about life.</description>
+    </book>
+</catalog>

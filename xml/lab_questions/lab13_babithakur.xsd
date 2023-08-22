@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" >
+<xs:element name="patients">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="pateint" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="name">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="firstname" type="xs:string"/>
+                                    <xs:element name="middlename" type="xs:string"/>
+                                    <xs:element name="lastname" type="xs:string"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="patient_number" type="xs:integer"/>
+                        <xs:element name="doctor_name" type="xs:string"/>
+                        <xs:element name="disease" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="dname" type="xs:string"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="consultation_charge" type="xs:integer"/>
+                        <xs:element name="lab_test" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="test_name" type="xs:string"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+    </xs:sequence>
+    </xs:complexType>
+</xs:element>
+</xs:schema>
