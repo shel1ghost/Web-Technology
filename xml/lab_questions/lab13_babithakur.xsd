@@ -3,7 +3,7 @@
 <xs:element name="patients">
     <xs:complexType>
         <xs:sequence>
-            <xs:element name="pateint" maxOccurs="unbounded">
+            <xs:element name="patient" maxOccurs="unbounded">
                 <xs:complexType>
                     <xs:sequence>
                         <xs:element name="name">
@@ -15,7 +15,13 @@
                                 </xs:sequence>
                             </xs:complexType>
                         </xs:element>
-                        <xs:element name="patient_number" type="xs:integer"/>
+                        <xs:element name="patient_number">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:pattern value="\d{1,5}"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
                         <xs:element name="doctor_name" type="xs:string"/>
                         <xs:element name="disease" maxOccurs="unbounded">
                             <xs:complexType>
@@ -24,7 +30,14 @@
                                 </xs:sequence>
                             </xs:complexType>
                         </xs:element>
-                        <xs:element name="consultation_charge" type="xs:integer"/>
+                        <xs:element name="consultation_charge">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:integer">
+                                    <xs:minInclusive value="500"/>
+                                    <xs:maxInclusive value="5000"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
                         <xs:element name="lab_test" maxOccurs="unbounded">
                             <xs:complexType>
                                 <xs:sequence>
