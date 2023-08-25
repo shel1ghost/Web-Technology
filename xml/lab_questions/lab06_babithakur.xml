@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schools xmlns:i="https://www.w3.org/2001/XMLSchema-instance" 
+i:schemaLocation="http://localhost:8000/schema.xsd">
+<school id="101">
+    <name>Uma Maheshwor Secondary Boarding School</name>
+    <location>Tikhidewal, Lalitpur</location>
+    <staff id="111">
+        <staff_name>Ishwor Shrestha</staff_name>
+        <title>Science Teacher</title>
+        <category>Academic</category>
+        <address>
+            <street>Lagankhel</street>
+            <suburb>Lalitpur</suburb>
+            <postalcode>4406</postalcode>
+        </address>
+    </staff>
+    <subjects>
+        <subject>
+            <sub_code>CACS1</sub_code>
+            <sub_name>Computer Science</sub_name>
+            <description>Learn about basic computer skills!</description>
+            <capacity>100</capacity>
+            <sub_teacher>Ishwor Shrestha</sub_teacher>
+        </subject>
+    </subjects>
+</school>
+</schools>
