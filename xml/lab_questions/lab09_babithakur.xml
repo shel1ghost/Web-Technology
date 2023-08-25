@@ -2,37 +2,37 @@
 <subjects>
     <subject>
         <name>Algo</name>
-        <chapter id="1">Greedy Algo</chapter>
-        <chapter id="2">Randomised Algo</chapter>
-        <chapter id="3">Searching Algo</chapter>
-        <chapter id="4">Sorting Algo</chapter>
+        <chapter1>Greedy Algo</chapter1>
+        <chapter2>Randomised Algo</chapter2>
+        <chapter3>Searching Algo</chapter3>
+        <chapter4>Sorting Algo</chapter4>
     </subject>
     <subject>
         <name>Data Structures</name>
-        <chapter id="1">Array</chapter>
-        <chapter id="2">Stack</chapter>
-        <chapter id="3">Queue</chapter>
-        <chapter id="4">Linked List</chapter>
+        <chapter1>Array</chapter1>
+        <chapter2>Stack</chapter2>
+        <chapter3>Queue</chapter3>
+        <chapter4>Linked List</chapter4>
     </subject>
     <subject>
         <name>Web Technology</name>
-        <chapter id="1">HTML</chapter>
-        <chapter id="2">CSS</chapter>
-        <chapter id="3">JavaScript</chapter>
-        <chapter id="4">PHP</chapter>
+        <chapter1>HTML</chapter1>
+        <chapter2>CSS</chapter2>
+        <chapter3>JavaScript</chapter3>
+        <chapter4>PHP</chapter4>
     </subject>
     <subject>
         <name>Languages</name>
-        <chapter id="1">C/C++</chapter>
-        <chapter id="2">Java</chapter>
-        <chapter id="3">Python</chapter>
-        <chapter id="4">Ruby</chapter>
+        <chapter1>C/C++</chapter1>
+        <chapter2>Java</chapter2>
+        <chapter3>Python</chapter3>
+        <chapter4>Ruby</chapter4>
     </subject>
     <subject>
         <name>DBMS</name>
-        <chapter id="1">Basics</chapter>
-        <chapter id="2">ER Diagram</chapter>
-        <chapter id="3">Normalization</chapter>
-        <chapter id="4">Transaction Concepts</chapter>
+        <chapter1>Basics</chapter1>
+        <chapter2>ER Diagram</chapter2>
+        <chapter3>Normalization</chapter3>
+        <chapter4>Transaction Concepts</chapter4>
     </subject>
 </subjects>

@@ -3,16 +3,18 @@
     <xsl:template match="/">
         <html>
             <body>
-                <h1>Hello Everyone! Welcome to XML to CSS</h1>
+                <h1 style="color: white; background-color: green;">Hello Everyone! Welcome to XML to CSS</h1>
                 <xsl:for-each select="subjects/subject">
                     <div>
                         <h3><xsl:value-of select="name"></xsl:value-of></h3>
-                        <xsl:template match="chapter">
-                        <p><xsl:value-of select="."></xsl:value-of></p>
-                        </xsl:template>
+                        <p style="color: green"><xsl:value-of select="chapter1"></xsl:value-of></p>
+                        <p style="color: red"><xsl:value-of select="chapter2"></xsl:value-of></p>
+                        <p style="color: purple"><xsl:value-of select="chapter3"></xsl:value-of></p>
+                        <p style="color: yellow"><xsl:value-of select="chapter4"></xsl:value-of></p>
                     </div>
                 </xsl:for-each>
             </body>
         </html>
     </xsl:template>
 </xsl:stylesheet>
+
