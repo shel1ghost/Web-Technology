@@ -12,7 +12,11 @@
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
-            <xs:element name="phone"/>
+            <xs:element name="phone">
+            <xs:complexType>
+                <xs:attribute name="type" type="xs:string"/>
+            </xs:complexType>
+            </xs:element>
             <xs:element name="area"/>
             <xs:element name="records" maxOccurs="unbounded">
                 <xs:complexType>

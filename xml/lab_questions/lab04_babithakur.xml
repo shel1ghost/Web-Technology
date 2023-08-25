@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE books [ 
+    <!ELEMENT books (book+)>
+    <!ELEMENT book (title, author, page_no, price)>
+    <!ATTLIST book isbn CDATA #REQUIRED>
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT author (firstname, middlename?, lastname)>
+    <!ATTLIST author name CDATA #REQUIRED>
+    <!ATTLIST author phone CDATA #REQUIRED>
+    <!ATTLIST author email CDATA #REQUIRED>
+    <!ATTLIST author title CDATA (ms | mr) "ms" #REQUIRED>
+    <!ELEMENT firstname (#PCDATA)>
+    <!ELEMENT middlename (#PCDATA)>
+    <!ELEMENT lastname (#PCDATA)>
+    <!ELEMENT page_no (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ATTLIST price currency (NPR | INR | USD) CDATA #REQUIRED>
+]>
+<books>
+    <book isbn="123-456-789">
+        <title>Hacking - The art of exploitation</title>
+        <author name="Jon Erickson" phone="9812345678" email="jonerickson@gmail.com" title="mr">
+            <firstname>Jon</firstname>
+            <middlename></middlename>
+            <lastname>Erickson</lastname>
+        </author>
+        <page_no>480</page_no>
+        <price currency="USD">28</price>
+    </book>
+</books>

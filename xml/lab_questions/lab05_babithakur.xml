@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student roll_no="01">
+        <name>
+            <firstname>Anup</firstname>
+            <middlename></middlename>
+            <lastname>Gautam</lastname>
+        </name>
+        <email>chocolateanup@gamil.com</email>
+        <phone>9856487652</phone>
+        <address permanent="Bhairahawa" temporary="Hattiban">Hattiban</address>
+        <dob type="BS">2060-04-20</dob>
+    </student>
+</students>
