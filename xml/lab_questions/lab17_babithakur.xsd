@@ -6,7 +6,7 @@
             <xs:element name="salesman" maxOccurs="unbounded">
                 <xs:complexType>
                     <xs:sequence>
-                        <xs:element name="name" type="xs:string"/>
+                        <xs:element name="first" type="xs:string"/>
                         <xs:element name="middle" type="xs:string"/>
                         <xs:element name="last" type="xs:string"/>
                     </xs:sequence>
